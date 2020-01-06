@@ -4,6 +4,8 @@
     <modelVersion>4.0.0</modelVersion>
     <modules>
         <module>ad-eureka</module>
+        <module>ad-gateway</module>
+        <module>ad-service</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -12,7 +14,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <packaging>pom</packaging>
-    <groupId>com.guier</groupId>
+    <groupId>com.guier.ad</groupId>
     <artifactId>ad-system</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ad-system</name>
