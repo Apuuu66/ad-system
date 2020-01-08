@@ -1,16 +1,14 @@
 package com.guier.ad.entity;
 
 import com.guier.ad.constant.CommonStatus;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 import java.util.Date;
 
-@Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Data
 @Entity
 @Table(name = "ad_plan")
 public class AdPlan {
