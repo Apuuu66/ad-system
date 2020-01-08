@@ -52,6 +52,7 @@
             <groupId>com.guier.ad</groupId>
             <artifactId>ad-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
+            <scope>provided</scope>
         </dependency>
         <!-- apache 提供的一些工具类 -->
         <dependency>
