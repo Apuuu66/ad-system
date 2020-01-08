@@ -11,8 +11,16 @@
     <packaging>pom</packaging>
     <modules>
         <module>ad-common</module>
+        <module>ad-sponsor</module>
     </modules>
     <artifactId>ad-service</artifactId>
-
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
