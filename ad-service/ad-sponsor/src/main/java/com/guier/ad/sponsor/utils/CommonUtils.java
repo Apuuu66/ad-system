@@ -1,7 +1,7 @@
 package com.guier.ad.sponsor.utils;
 
 
-import tmp.exceptions.AdException;
+import com.guier.ad.common.exceptions.AdException;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.lang.time.DateUtils;
 

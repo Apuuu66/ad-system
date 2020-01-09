@@ -1,7 +1,7 @@
 package com.guier.ad.sponsor.service;
 
 
-import tmp.exceptions.AdException;
+import com.guier.ad.common.exceptions.AdException;
 import com.guier.ad.sponsor.entity.AdPlan;
 import com.guier.ad.sponsor.vo.*;
 

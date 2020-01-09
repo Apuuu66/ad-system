@@ -1,4 +1,4 @@
-package tmp.configuration;
+package com.guier.ad.common.configuration;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.converter.HttpMessageConverter;

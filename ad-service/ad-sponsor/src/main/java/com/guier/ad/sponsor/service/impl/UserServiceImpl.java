@@ -7,7 +7,7 @@ import com.guier.ad.sponsor.service.IUserService;
 import com.guier.ad.sponsor.utils.CommonUtils;
 import com.guier.ad.sponsor.vo.CreateUserRequest;
 import com.guier.ad.sponsor.vo.CreateUserResponse;
-import tmp.exceptions.AdException;
+import com.guier.ad.common.exceptions.AdException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -15,3 +15,24 @@ management:
   endpoint:
     health:
       show-details: always
+zuul:
+  routes:
+    user-route:
+      serviceId: ad-sponsor
+      path: /sponsor/**
+      strip-prefix: false  #不过滤前缀
+
+
+#public static class ZuulRoute {
+#    private String id;
+#    private String path;
+#    private String serviceId;
+#    private String url;
+#    private boolean stripPrefix = true;
+#    private Boolean retryable;
+#    private Set<String> sensitiveHeaders = new LinkedHashSet();
+#    private boolean customSensitiveHeaders = false;
+#查看路由规则，设置debug级别
+logging:
+  level:
+    com.netflix: debug

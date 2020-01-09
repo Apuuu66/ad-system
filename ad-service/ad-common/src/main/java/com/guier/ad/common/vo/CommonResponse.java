@@ -1,4 +1,4 @@
-package tmp.vo;
+package com.guier.ad.common.vo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

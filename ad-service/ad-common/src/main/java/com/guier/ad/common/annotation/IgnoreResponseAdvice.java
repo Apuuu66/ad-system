@@ -1,4 +1,4 @@
-package tmp.annotation;
+package com.guier.ad.common.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

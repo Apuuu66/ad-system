@@ -1,7 +1,7 @@
-package tmp.advice;
+package com.guier.ad.common.advice;
 
-import tmp.annotation.IgnoreResponseAdvice;
-import tmp.vo.CommonResponse;
+import com.guier.ad.common.vo.CommonResponse;
+import com.guier.ad.common.annotation.IgnoreResponseAdvice;
 import org.springframework.core.MethodParameter;
 import org.springframework.http.MediaType;
 import org.springframework.http.converter.HttpMessageConverter;

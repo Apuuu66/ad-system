@@ -1,7 +1,7 @@
 package com.guier.ad.sponsor.service.impl;
 
 
-import tmp.exceptions.AdException;
+import com.guier.ad.common.exceptions.AdException;
 import com.guier.ad.sponsor.constant.CommonStatus;
 import com.guier.ad.sponsor.constant.Constants;
 import com.guier.ad.sponsor.dao.AdPlanRepository;

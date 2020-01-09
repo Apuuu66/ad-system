@@ -1,7 +1,7 @@
-package tmp.advice;
+package com.guier.ad.common.advice;
 
-import tmp.exceptions.AdException;
-import tmp.vo.CommonResponse;
+import com.guier.ad.common.vo.CommonResponse;
+import com.guier.ad.common.exceptions.AdException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
